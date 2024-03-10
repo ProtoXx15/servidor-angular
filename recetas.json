@@ -1,0 +1,127 @@
+{
+    "recetas": [
+      {
+        "id": 1,
+        "nombre": "Ensalada César",
+        "descripcion": "Una ensalada clásica con aderezo cremoso y crutones crujientes.",
+        "ingredientes": [
+          "Lechuga romana",
+          "Crutones",
+          "Queso parmesano",
+          "Pechuga de pollo",
+          "Aderezo César"
+        ],
+        "preparacion": [
+          "Lavar y cortar la lechuga en trozos pequeños.",
+          "Cocinar la pechuga de pollo a la parrilla y cortarla en tiras.",
+          "Mezclar la lechuga, los crutones, el queso parmesano y el pollo en un tazón grande.",
+          "Agregar el aderezo César y mezclar bien.",
+          "Servir y disfrutar."
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Espaguetis a la Boloñesa",
+        "descripcion": "Una receta clásica de pasta con una salsa de carne sabrosa y tomate.",
+        "ingredientes": [
+          "Espaguetis",
+          "Carne molida",
+          "Tomate",
+          "Cebolla",
+          "Ajo",
+          "Aceite de oliva",
+          "Sal",
+          "Pimienta"
+        ],
+        "preparacion": [
+          "Cocinar los espaguetis en agua hirviendo con sal hasta que estén al dente.",
+          "En una sartén grande, calentar el aceite de oliva y sofreír la cebolla y el ajo picados hasta que estén dorados.",
+          "Agregar la carne molida y cocinar hasta que esté dorada.",
+          "Agregar los tomates picados y cocinar a fuego lento hasta que la salsa se espese.",
+          "Condimentar con sal y pimienta al gusto.",
+          "Servir los espaguetis con la salsa encima.",
+          "¡Listo para disfrutar!"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Sopa de Tomate",
+        "descripcion": "Una sopa reconfortante con el sabor fresco de los tomates maduros.",
+        "ingredientes": [
+          "Tomates",
+          "Cebolla",
+          "Ajo",
+          "Caldo de pollo",
+          "Albahaca fresca",
+          "Aceite de oliva",
+          "Sal",
+          "Pimienta"
+        ],
+        "preparacion": [
+          "Pelar y picar los tomates, la cebolla y el ajo.",
+          "En una olla grande, calentar el aceite de oliva y sofreír la cebolla y el ajo hasta que estén dorados.",
+          "Agregar los tomates picados y cocinar hasta que estén suaves.",
+          "Agregar el caldo de pollo y la albahaca fresca.",
+          "Cocinar a fuego lento durante unos 20 minutos.",
+          "Licuar la sopa hasta que quede suave.",
+          "Condimentar con sal y pimienta al gusto.",
+          "Servir caliente y disfrutar."
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Tacos de Pescado",
+        "descripcion": "Tacos mexicanos con filetes de pescado crujientes y sabrosos.",
+        "ingredientes": [
+          "Filetes de pescado blanco",
+          "Tortillas de maíz",
+          "Repollo",
+          "Crema agria",
+          "Cilantro",
+          "Limón",
+          "Sal",
+          "Pimienta",
+          "Aceite vegetal"
+        ],
+        "preparacion": [
+          "Cortar el pescado en trozos pequeños y sazonar con sal y pimienta.",
+          "Calentar el aceite en una sartén grande y freír los filetes de pescado hasta que estén dorados y crujientes.",
+          "Calentar las tortillas de maíz.",
+          "Armar los tacos colocando los filetes de pescado fritos sobre las tortillas de maíz.",
+          "Agregar repollo rallado, crema agria y cilantro picado al gusto.",
+          "Exprimir un poco de jugo de limón encima.",
+          "Servir caliente y disfrutar."
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Hamburguesa Clásica",
+        "descripcion": "Una hamburguesa jugosa con todos los ingredientes clásicos.",
+        "ingredientes": [
+          "Carne molida",
+          "Pan para hamburguesa",
+          "Lechuga",
+          "Tomate",
+          "Cebolla",
+          "Queso cheddar",
+          "Mayonesa",
+          "Mostaza",
+          "Kétchup",
+          "Sal",
+          "Pimienta"
+        ],
+        "preparacion": [
+          "Formar la carne molida en hamburguesas y sazonar con sal y pimienta.",
+          "Cocinar las hamburguesas a la parrilla o en una sartén caliente hasta que estén cocidas a tu gusto.",
+          "Tostar ligeramente los panes para hamburguesa.",
+          "Untar mayonesa y mostaza en los panes tostados.",
+          "Colocar las hamburguesas cocidas sobre la parte inferior de los panes.",
+          "Agregar rodajas de tomate, cebolla y lechuga al gusto.",
+          "Colocar una rebanada de queso cheddar sobre las hamburguesas calientes.",
+          "Cubrir con la parte superior de los panes y servir con kétchup.",
+          "¡Disfruta de tu hamburguesa clásica!"
+        ]
+      }
+    ]
+  }
+  
