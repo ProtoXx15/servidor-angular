@@ -1,56 +1,31 @@
-# En esta rama se ha agregado una db mongo en lugar de un local.json, en la parte de abajo del fichero server.js hay una serie de códigos comentados, ambas alternativas permiten levantar el servidor con MongoDB en lugar de usar un json local
-Se debe instalar la dependencia:
-npm install mongodb
 
+# Servidor JS con BBDD en JSON
+Este repositorio contiene un servidor Express JS simple que utiliza una base de datos basada en JSON para el almacenamiento de datos. El servidor está diseñado para manejar solicitudes de API RESTful e interactuar con un archivo JSON para realizar operaciones CRUD.
 
-# Node.js Server for Angular Storefront - Crash Course
+## Instrucciones de Configuración
+Sigue estos pasos para configurar y ejecutar el servidor:
+1. ### Clona el repositorio:
+```bash
+git clone https://github.com/ProtoXx15/servidor-angular.git
+```
+2. ### Instala las Dependencias:
+```bash
+cd angular-final-servidor
+npm install
+```
+2. ### Inicia el Servidor:
+```bash
+node server.js
+```
+ ## Descripción del Servidor
+- Tecnología Utilizada: Este servidor se ha construido empleando Express JS, un framework web rápido, minimalista y sin opiniones diseñado para Node.js.
+- Almacenamiento de Datos: Los datos se gestionan mediante un archivo JSON (data.json) y se manipulan mediante operaciones estándar de entrada/salida de archivos.
+- API RESTful: El servidor ofrece una API RESTful que permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en los datos almacenados en el archivo JSON.
+ ## Listado de Endpoints Disponibles
+- GET /usuarios: Recupera todos los datos almacenados en la base de datos.
+- POST /usuarios/data: Añade nuevos datos a la base de datos.
+ -DELETE /usuarios/{id}: Elimina datos con un ID específico de la base de datos.
+ ## Datos de Muestra
+- El archivo JSON (db.json) incluye ejemplos de datos para fines de demostración. Puedes editar directamente este archivo o utilizar los endpoints proporcionados para interactuar con los datos.
 
-This server provides the backend functionality for the Angular frontend, allowing users to perform CRUD (Create, Read, Update, Delete) operations on products. The server utilizes Express and interacts with a JSON file to manage product data.
-
-## Table of Contents
-
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-
-## Features
-
-- **Express Server:** The server is built with Express, providing a robust and scalable backend.
-- **CRUD Operations:** Supports Create, Read, Update, and Delete operations on product data.
-- **JSON Data Storage:** Products are stored and manipulated within a JSON file instead of a traditional database.
-
-## Getting Started
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/thecodedeck/angular-cc-1-server.git
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-## Usage
-
-1. Run the server:
-   ```bash
-   npm start
-   ```
-2. The server will be running on http://localhost:3000/.
-
-3. The Angular frontend will interact with these API endpoints to perform CRUD operations on products.
-
-## License
-
-This project is licensed under the MIT License.
+- Este README proporciona una visión general de la estructura y funcionalidad del servidor. Para obtener detalles sobre cómo configurar, desplegar y mantener este servidor, consulta la sección correspondiente en este documento o sigue las instrucciones proporcionadas en el repositorio.
